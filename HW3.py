@@ -22,8 +22,7 @@ class DigitalBookofAnswers():
     # Create the __str__ method
     # ARGUMENTS: 
     #       self: the curent object
-    # RETURNS: a string with all of the answers in the book_answer_list separated by dashes
-    #        If no questions have been asked, return an empty string
+    # RETURNS: a string
     def __str__(self):
 
         pass
@@ -32,7 +31,7 @@ class DigitalBookofAnswers():
     # ARGUMENTS:
     #       self: the current object
     #       question: the question the user wants to ask the digital book of answers
-    # RETURNS: a string with the answer
+    # RETURNS: a string
     def check_get_answer(self, question):
 
         pass
@@ -49,8 +48,7 @@ class DigitalBookofAnswers():
     # Create the answer_log method
     # ARGUMENTS: 
     #       self: the curent object
-    # RETURNS: list with frequency information for all answers in a sorted order
-    #          if no answers have been given, return an empty list
+    # RETURNS: a list
     def answer_log(self):
 
         pass
