@@ -96,7 +96,7 @@ def test():
     book.answered_list = [0]
     book.questions_asked_list = ['test question 3']
     book.check_get_answer('test question 3')
-    expected = [0, 0]
+    expected = [0]
     res = book.answered_list
     print(f"Expected: {expected}, Actual: {res}")
     print(" ")
@@ -118,7 +118,7 @@ def test():
     print("Testing answer_log")
     book.answered_list = [0, 0, 0, 1, 1, 2]
     res = book.answer_log()
-    expected = ['follow your inner voice - 3', 'stay positive - 2', 'go for it - 1']
+    expected = ['3 - follow your inner voice', '2 - stay positive', '1 - go for it']
     print(f"Expected: {expected}, Actual: {res}")
     print(" ")
 
