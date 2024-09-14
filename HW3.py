@@ -67,7 +67,12 @@ def test():
     expected = "Belive in Yourself - Stay Open to the Future - Enjoy It"
     print(f"Expected: {expected}, Actual: {str(book)}")
     print(" ")
-
+    
+    empty_book = DigitalBookofAnswers([])
+    print("Test __str__: when it's an empty book without possible answers")
+    expected = ""
+    print(f"Expected: {expected}, Actual: {str(empty_book)}")
+    print(" ")
 
     print("Testing return value of check_get_answer:")
     res = book.check_get_answer('test question')
@@ -126,6 +131,7 @@ def test():
     expected = []
     print(f"Expected: {expected}, Actual: {res}")
     print(" ")
+
 
 
 # Extra Credit
